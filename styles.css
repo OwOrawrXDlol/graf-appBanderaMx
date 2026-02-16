@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px; /* Más grande */
+    margin-bottom: 30px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.columna {
+    padding: 10px;
+}
+
+.columna input {
+    width: 100%;
+}
+
+.bandera {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.franja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde {
+    background-color: #00FF00;
+}
+
+.blanco {
+    background-color: #FFFFFF;
+}
+
+.rojo {
+    background-color: #FF0000;
+}
+
+.escudo {
+    width: 160px;
+}
+
+.autor {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="contenedor">
+
+        <div class="columna">
+            <h3>Esperanza</h3>
+            <input type="range" id="verdeRange" min="0" max="255" value="255">
+            <p id="verdeHex">#00FF00</p>
+        </div>
+
+        <div class="columna">
+            <h3>Unidad</h3>
+            <p>#FFFFFF</p>
+        </div>
+
+        <div class="columna">
+            <h3>Sangre de nuestros héroes nacionales</h3>
+            <input type="range" id="rojoRange" min="0" max="255" value="255">
+            <p id="rojoHex">#FF0000</p>
+        </div>
+
+    </div>
+
+    <div class="bandera">
+        <div id="verde" class="franja verde"></div>
+
+        <div class="franja blanco">
+            <img 
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/250px-Coat_of_arms_of_Mexico.svg.png"
+                alt="Escudo Nacional"
+                class="escudo"
+            >
+        </div>
+
+        <div id="rojo" class="franja rojo"></div>
+    </div>
+
+    <p class="autor">Donovan Hernández Hernández 23200846</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
